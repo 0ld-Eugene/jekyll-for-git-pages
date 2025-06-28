@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="color-scheme" content="light">
+   <link rel="stylesheet" href="{{ site.baseurl }}/styles/main.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@10/swiper-bundle.min.css" />
+   <title>{{ page.title }}</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      {% include header.html %}
+      {{ content }}
+      {% include footer.html %}
+   </div>
+   <script src="https://unpkg.com/swiper@10/swiper-bundle.min.js"></script>
+   <script src="{{ site.baseurl }}/scripts/script.js"></script>
+</body>
+
+</html>
